@@ -1,6 +1,6 @@
 import "flowbite";
 import { Card, DarkThemeToggle, Flowbite } from "flowbite-react";
-import { Fragment, useState } from "react";
+import { Fragment, useCallback, useSyncExternalStore } from "react";
 import "./App.css";
 import { jams } from "./gamejams";
 import { Author, Game, Jam } from "./types";
@@ -12,9 +12,9 @@ const transparent =
   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=";
 
 function App() {
-  const [selectedJam, setSelectedJam] = useState("");
-  const [selectedAuthor, setSelectedAuthor] = useState("");
-  const [selectedPlatform, setSelectedPlatform] = useState("");
+  const [selectedPlatform, setSelectedPlatform] = useSearchParamsState("p");
+  const [selectedAuthor, setSelectedAuthor] = useSearchParamsState("a");
+  const [selectedJam, setSelectedJam] = useSearchParamsState("j");
 
   function bySelectedPlatform() {
     return selectedPlatform
@@ -181,5 +181,38 @@ function findAuthors() {
   });
   return authors;
 }
+
+var useSearchParamsState = (() => {
+  const event = new Event("locationchange");
+  return function useSearchParamsState(
+    key: string,
+  ): [string, (newValue: string) => void] {
+    const search = useSyncExternalStore(subscribe, getSnapshot);
+    const value = new URLSearchParams(search).get(key) ?? "";
+    const setter = useCallback(
+      (newValue: string) => {
+        const searchParams = new URLSearchParams(location.search);
+        if (newValue === "") searchParams.delete(key);
+        else searchParams.set(key, newValue);
+        let pathname = [location.pathname, searchParams.toString()]
+          .filter((s) => s)
+          .join("?");
+        history.replaceState(null, "", pathname);
+        dispatchEvent(event);
+      },
+      [key],
+    );
+    return [value, setter];
+  };
+
+  function subscribe(callback: () => void) {
+    addEventListener(event.type, callback);
+    return () => removeEventListener(event.type, callback);
+  }
+
+  function getSnapshot() {
+    return window.location.search;
+  }
+})();
 
 export default App;
