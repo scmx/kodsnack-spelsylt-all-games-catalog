@@ -1,11 +1,12 @@
 import "flowbite";
 import { Card, DarkThemeToggle, Flowbite } from "flowbite-react";
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import "./App.css";
 import { jams } from "./gamejams";
 import { Author, Game, Jam } from "./types";
 
 const authors = findAuthors();
+const platforms = ["web", "windows", "mac", "linux", "love2d"];
 
 const transparent =
   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=";
@@ -13,6 +14,13 @@ const transparent =
 function App() {
   const [selectedJam, setSelectedJam] = useState("");
   const [selectedAuthor, setSelectedAuthor] = useState("");
+  const [selectedPlatform, setSelectedPlatform] = useState("");
+
+  function bySelectedPlatform() {
+    return selectedPlatform
+      ? (game: Game) => Object.keys(game.platforms).includes(selectedPlatform)
+      : () => true;
+  }
   function bySelectedJam() {
     return selectedJam ? (jam: Jam) => jam.id === selectedJam : () => true;
   }
@@ -21,6 +29,16 @@ function App() {
       ? (game: Game) => game.author === selectedAuthor
       : () => true;
   }
+
+  const filteredGames = Object.values(jams)
+    .filter(bySelectedJam())
+    .flatMap((jam) => {
+      return jam.games.map((game) => ({ ...game, jam_title: jam.title }));
+    })
+    .filter(bySelectedPlatform())
+    .filter(bySelectedAuthor())
+    .sort(sortBy((g) => g.rank));
+
   return (
     <Flowbite theme={{ mode: "dark" }}>
       <nav className="bg-white dark:bg-gray-900 md:fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
@@ -39,8 +57,24 @@ function App() {
               </h1>
             </a>
             <div className="flex flex-wrap justify-end ml-auto">
+              <div className="flex place-items-center">
+                {filteredGames.length} spel!
+              </div>
               <select
-                id="countries"
+                id="select_platforms"
+                className="m-3 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 fill-available"
+                value={selectedPlatform}
+                onChange={(e) => setSelectedPlatform(e.target.value)}
+              >
+                <option value={""}>Alla plattformar</option>
+                {platforms.map((platform) => (
+                  <option key={platform} value={platform}>
+                    {platform}
+                  </option>
+                ))}
+              </select>
+              <select
+                id="select_jams"
                 className="m-3 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 fill-available"
                 value={selectedJam}
                 onChange={(e) => setSelectedJam(e.target.value)}
@@ -53,7 +87,7 @@ function App() {
                 ))}
               </select>
               <select
-                id="countries"
+                id="select_authors"
                 className="m-3 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                 value={selectedAuthor}
                 onChange={(e) => setSelectedAuthor(e.target.value)}
@@ -92,32 +126,35 @@ function App() {
         </div>
       </nav>
       <main className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 max-w-[2400px] gap-3 mx-auto p-3 md:mt-[73px] dark:bg-black">
-        {Object.values(jams)
-          .filter(bySelectedJam())
-          .flatMap((jam) =>
-            jam.games.map((game) => ({ ...game, jam_title: jam.title })),
-          )
-          .filter(bySelectedAuthor())
-          .sort(sortBy((g) => g.rank))
-          .map((game) => (
-            <Card
-              key={game.link}
-              href={game.link}
-              imgAlt={game.title}
-              imgSrc={game.thumb ?? transparent}
-            >
-              <span>
-                <h2 className="text-2xl dark:text-white">{game.title}</h2>{" "}
-                <div className="dark:text-white">
-                  av <strong className="dark:text-white">{game.author}</strong>
-                </div>
-                <div className="dark:text-white">
-                  för{" "}
-                  <strong className="dark:text-white">{game.jam_title}</strong>
-                </div>
-              </span>
-            </Card>
-          ))}
+        {filteredGames.map((game) => (
+          <Card
+            key={game.link}
+            href={game.link}
+            imgAlt={game.title}
+            imgSrc={game.thumb ?? transparent}
+          >
+            <div>
+              <h2 className="text-2xl dark:text-white">{game.title}</h2>{" "}
+              <div className="dark:text-white">
+                av <strong className="dark:text-white">{game.author}</strong>
+              </div>
+              <div className="dark:text-white">
+                för{" "}
+                <strong className="dark:text-white">{game.jam_title}</strong>
+              </div>
+            </div>
+            <div className="flex">
+              {Object.entries(game.platforms)
+                .filter(([, ok]) => ok)
+                .map(([name], index) => (
+                  <Fragment key={name}>
+                    {index > 0 ? <>,&nbsp;</> : null}
+                    <span>{name}</span>
+                  </Fragment>
+                ))}
+            </div>
+          </Card>
+        ))}
       </main>
     </Flowbite>
   );
