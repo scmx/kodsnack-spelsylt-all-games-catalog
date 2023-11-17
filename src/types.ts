@@ -11,9 +11,18 @@ export interface Game {
   link: string;
   thumb: string;
   rank: number;
+  platforms: Platforms;
 }
 
 export interface Author {
   name: string;
   submissionsCount: number;
+}
+
+export interface Platforms {
+  web?: boolean;
+  windows?: boolean;
+  mac?: boolean;
+  linux?: boolean;
+  love2d?: boolean;
 }

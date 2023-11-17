@@ -8,6 +8,9 @@ async function main() {
 
   for (const jam of jams.values()) {
     await fetchJamResults(jam);
+    for (const game of jam.games) {
+      await fetchGameInfo(game);
+    }
   }
   writeFileSync(
     "./src/generated.json",
@@ -64,10 +67,32 @@ async function fetchJamResults(jam: Jam) {
       link,
       thumb,
       rank,
+      platforms: {},
     };
     jam.games.push(game);
   }
   return results;
+}
+
+async function fetchGameInfo(game: Game) {
+  const doc = await fetchDocument(game.link);
+  const p = game.platforms;
+  if (doc.querySelector(".game_frame iframe,.iframe_placeholder")) p.web = true;
+  if (detectPlatform(doc, /mac\s?os/i, ".icon-apple")) p.mac = true;
+  if (detectPlatform(doc, /windows/i, ".icon-windows8")) p.windows = true;
+  if (detectPlatform(doc, /linux/i, ".icon-tux")) p.linux = true;
+  if (detectPlatform(doc, /(?:\.love$|l[öÖ]ve|love2d)/i)) p.love2d = true;
+}
+
+function detectPlatform(doc: any, regex: RegExp, selector?: string) {
+  if (selector && doc.querySelector(`.upload ${selector}`)) return true;
+  if (uploadNameContains(doc, regex)) return true;
+}
+
+function uploadNameContains(doc: any, regex: RegExp) {
+  return [...doc.querySelectorAll(".upload_name .name")].some((el) =>
+    regex.test(el.getAttribute("title") ?? ""),
+  );
 }
 
 async function fetchDocument(url: string) {
