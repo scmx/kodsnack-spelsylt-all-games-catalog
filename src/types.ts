@@ -9,9 +9,17 @@ export interface Game {
   title: string;
   author: string;
   link: string;
-  thumb: string;
+  /** How high up in the list to show this */
+  priority: number;
+  thumb?: string;
+  /** Rank in the jam */
   rank: number;
+  /** Number of ratings */
+  ratings: number;
+  /** Final score */
+  score: number;
   platforms: Platforms;
+  jamTitle?: string;
 }
 
 export interface Author {

@@ -12,9 +12,12 @@
           "link": "https://forslund.itch.io/an-mustasch-adventure",
           "thumb": "https://img.itch.zone/aW1nLzE2NTQ0NDUucG5n/315x250%23c/7ETIL5.png",
           "rank": 1,
+          "ratings": 11,
+          "score": 1.333,
           "platforms": {
             "love2d": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "mustache",
@@ -22,11 +25,14 @@
           "link": "https://vestman.itch.io/mustache",
           "thumb": "https://img.itch.zone/aW1nLzE2NTkzMTEucG5n/315x250%23c/ZnRQlc.png",
           "rank": 2,
+          "ratings": 11,
+          "score": 1.242,
           "platforms": {
             "mac": true,
             "windows": true,
             "love2d": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Handlebar Harry saves the day",
@@ -34,9 +40,12 @@
           "link": "https://madeso.itch.io/spelsylt2018",
           "thumb": "https://img.itch.zone/aW1nLzE2NTc0NTkucG5n/315x250%23c/cZX1CU.png",
           "rank": 3,
+          "ratings": 11,
+          "score": 1.212,
           "platforms": {
             "love2d": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Bambacars",
@@ -44,11 +53,14 @@
           "link": "https://vidarn.itch.io/bambacars",
           "thumb": "https://img.itch.zone/aW1nLzE2NTcyMTcucG5n/315x250%23c/ORLxxF.png",
           "rank": 3,
+          "ratings": 11,
+          "score": 1.212,
           "platforms": {
             "mac": true,
             "windows": true,
             "love2d": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Placeholder climb",
@@ -56,12 +68,15 @@
           "link": "https://fronkan.itch.io/kodsnack2weekjam",
           "thumb": "https://img.itch.zone/aW1nLzE2NTg1OTMucG5n/315x250%23c/WEWpjE.png",
           "rank": 5,
+          "ratings": 11,
+          "score": 1.121,
           "platforms": {
             "mac": true,
             "windows": true,
             "linux": true,
             "love2d": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Beach Street Racer",
@@ -69,7 +84,10 @@
           "link": "https://btvr.itch.io/beach-street-racer",
           "thumb": "https://img.itch.zone/aW1nLzE2NTczNjIucG5n/315x250%23c/UWN7Co.png",
           "rank": 6,
-          "platforms": {}
+          "ratings": 11,
+          "score": 1.091,
+          "platforms": {},
+          "priority": 0
         },
         {
           "title": "Skrot",
@@ -77,12 +95,15 @@
           "link": "https://emlun.itch.io/skrot",
           "thumb": "https://img.itch.zone/aW1nLzE2NTg3NDMucG5n/315x250%23c/5rU5bd.png",
           "rank": 7,
+          "ratings": 11,
+          "score": 1.03,
           "platforms": {
             "mac": true,
             "windows": true,
             "linux": true,
             "love2d": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "All Bike No Stach",
@@ -90,7 +111,10 @@
           "link": "https://saikyun.itch.io/all-bike-no-stach",
           "thumb": "https://img.itch.zone/aW1nLzE2NTczOTMucG5n/315x250%23c/Ts%2B1tt.png",
           "rank": 7,
-          "platforms": {}
+          "ratings": 11,
+          "score": 1.03,
+          "platforms": {},
+          "priority": 0
         },
         {
           "title": "spelsylt2018",
@@ -98,9 +122,12 @@
           "link": "https://cykelkatalogen.itch.io/spelsylt2018",
           "thumb": "https://img.itch.zone/aW1nLzE2NTczOTEucG5n/315x250%23c/pEd7iw.png",
           "rank": 9,
+          "ratings": 11,
+          "score": 1,
           "platforms": {
             "love2d": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "My first platform",
@@ -108,12 +135,15 @@
           "link": "https://kalaspuffar.itch.io/my-first-platform",
           "thumb": "https://img.itch.zone/aW1nLzE2NTI3NDcuanBn/315x250%23c/fqYXfb.jpg",
           "rank": 10,
+          "ratings": 11,
+          "score": 0.97,
           "platforms": {
             "mac": true,
             "windows": true,
             "linux": true,
             "love2d": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Ada the Alien and the mystery moustaches",
@@ -121,7 +151,10 @@
           "link": "https://jromin.itch.io/allan-the-alien-and-the-mystery-moustache",
           "thumb": "https://img.itch.zone/aW1nLzE2NTY4NzUucG5n/315x250%23c/LUItyL.png",
           "rank": 11,
-          "platforms": {}
+          "ratings": 11,
+          "score": 0.909,
+          "platforms": {},
+          "priority": 0
         },
         {
           "title": "Love2d Kodsnacks Game Jam",
@@ -129,9 +162,12 @@
           "link": "https://xeroxer.itch.io/love2d-kodsnacks-game-jam",
           "thumb": "https://img.itch.zone/aW1nLzE2NjIyMjcuanBn/315x250%23c/TiQQNw.jpg",
           "rank": 12,
+          "ratings": 11,
+          "score": 0.606,
           "platforms": {
             "love2d": true
-          }
+          },
+          "priority": 0
         }
       ]
     },
@@ -145,7 +181,10 @@
           "author": "tomasskare",
           "link": "https://tomasskare.itch.io/amazeballs",
           "rank": 1,
-          "platforms": {}
+          "ratings": 2,
+          "score": 1.5,
+          "platforms": {},
+          "priority": 0
         },
         {
           "title": "Tågsylt",
@@ -153,14 +192,20 @@
           "link": "https://keypunch.itch.io/tagsylt",
           "thumb": "https://img.itch.zone/aW1nLzIwMTUxNTUucG5n/315x250%23c/r0QeJc.png",
           "rank": 2,
-          "platforms": {}
+          "ratings": 2,
+          "score": 1.333,
+          "platforms": {},
+          "priority": 0
         },
         {
           "title": "Jam Life",
           "author": "Saikyun",
           "link": "https://saikyun.itch.io/jam-life",
           "rank": 3,
-          "platforms": {}
+          "ratings": 3,
+          "score": 1.222,
+          "platforms": {},
+          "priority": 0
         },
         {
           "title": "Topgear 2",
@@ -168,7 +213,10 @@
           "link": "https://vestman.itch.io/topgear-2",
           "thumb": "https://img.itch.zone/aW1nLzIwMTIxNTIucG5n/315x250%23c/XUD31F.png",
           "rank": 4,
-          "platforms": {}
+          "ratings": 2,
+          "score": 1.167,
+          "platforms": {},
+          "priority": 0
         }
       ]
     },
@@ -183,12 +231,15 @@
           "link": "https://johnste.itch.io/slam-whale",
           "thumb": "https://img.itch.zone/aW1nLzI1MDk5MDQucG5n/315x250%23c/dVXLbg.png",
           "rank": 1,
+          "ratings": 8,
+          "score": 4.063,
           "platforms": {
             "mac": true,
             "windows": true,
             "linux": true,
             "love2d": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Amphidextrous",
@@ -196,9 +247,12 @@
           "link": "https://jonasnockert.itch.io/amphidextrous",
           "thumb": "https://img.itch.zone/aW1nLzI1MTEwMDkucG5n/315x250%23c/0JNWfI.png",
           "rank": 2,
+          "ratings": 7,
+          "score": 3.875,
           "platforms": {
             "love2d": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Subhunt",
@@ -206,9 +260,12 @@
           "link": "https://vestman.itch.io/subhunt",
           "thumb": "https://img.itch.zone/aW1nLzI0OTIwMTUucG5n/315x250%23c/T%2FANEs.png",
           "rank": 3,
+          "ratings": 8,
+          "score": 3.875,
           "platforms": {
             "love2d": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Kapten Nemos galna äventyr",
@@ -216,9 +273,12 @@
           "link": "https://madeso.itch.io/spelsylt3",
           "thumb": "https://img.itch.zone/aW1nLzI1MTEwNjQucG5n/315x250%23c/4MHgIK.png",
           "rank": 4,
+          "ratings": 8,
+          "score": 3.438,
           "platforms": {
             "love2d": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Bubble Hunter",
@@ -226,9 +286,12 @@
           "link": "https://trito.itch.io/bubble-hunter",
           "thumb": "https://img.itch.zone/aW1nLzI1MTAyNjMucG5n/315x250%23c/3SE%2Bd6.png",
           "rank": 5,
+          "ratings": 7,
+          "score": 3.408,
           "platforms": {
             "love2d": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Deep Dive",
@@ -236,12 +299,15 @@
           "link": "https://fronkan.itch.io/deep-dive",
           "thumb": "https://img.itch.zone/aW1nLzI1MTA5MTQucG5n/315x250%23c/84ItzA.png",
           "rank": 6,
+          "ratings": 8,
+          "score": 3,
           "platforms": {
             "mac": true,
             "windows": true,
             "linux": true,
             "love2d": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "LoveDiver",
@@ -249,12 +315,15 @@
           "link": "https://elsiipo.itch.io/lovediver",
           "thumb": "https://img.itch.zone/aW1nLzI0OTAzMDYucG5n/315x250%23c/iDirQe.png",
           "rank": 7,
+          "ratings": 8,
+          "score": 2.625,
           "platforms": {
             "mac": true,
             "windows": true,
             "linux": true,
             "love2d": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Splashy",
@@ -262,12 +331,15 @@
           "link": "https://oelrich.itch.io/splashy",
           "thumb": "https://img.itch.zone/aW1nLzI1MTAzNTQucG5n/315x250%23c/HIY7kR.png",
           "rank": 8,
+          "ratings": 7,
+          "score": 2.339,
           "platforms": {
             "mac": true,
             "windows": true,
             "linux": true,
             "love2d": true
-          }
+          },
+          "priority": 0
         }
       ]
     },
@@ -282,9 +354,12 @@
           "link": "https://cykelkatalogen.itch.io/spelsylt2020",
           "thumb": "https://img.itch.zone/aW1nLzM1NDQzOTcucG5n/315x250%23c/rUqWO5.png",
           "rank": 1,
+          "ratings": 7,
+          "score": 3.643,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Spaceman Adventure",
@@ -292,9 +367,12 @@
           "link": "https://madeso.itch.io/spelsylt4",
           "thumb": "https://img.itch.zone/aW1nLzM1NDQ1NDgucG5n/315x250%23c/JG4kcr.png",
           "rank": 2,
+          "ratings": 7,
+          "score": 3.429,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Supply run",
@@ -302,9 +380,12 @@
           "link": "https://fronkan.itch.io/supplyrun",
           "thumb": "https://img.itch.zone/aW1nLzM1NDQ1MTYucG5n/315x250%23c/gR7d0E.png",
           "rank": 3,
+          "ratings": 7,
+          "score": 3.357,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Grobblings",
@@ -312,10 +393,13 @@
           "link": "https://nilskj.itch.io/grobblings",
           "thumb": "https://img.itch.zone/aW1nLzM1MzkzODgucG5n/315x250%23c/FaidET.png",
           "rank": 3,
+          "ratings": 7,
+          "score": 3.357,
           "platforms": {
             "web": true,
             "mac": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Solonaut",
@@ -323,12 +407,15 @@
           "link": "https://johnste.itch.io/solonaut",
           "thumb": "https://img.itch.zone/aW1nLzM1NDUxNTcucG5n/315x250%23c/4IUuKb.png",
           "rank": 5,
+          "ratings": 7,
+          "score": 3.214,
           "platforms": {
             "web": true,
             "mac": true,
             "windows": true,
             "linux": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Daylight",
@@ -336,9 +423,12 @@
           "link": "https://vestman.itch.io/daylight",
           "thumb": "https://img.itch.zone/aW1nLzM1MDU2MjEucG5n/315x250%23c/2uqjwu.png",
           "rank": 5,
+          "ratings": 7,
+          "score": 3.214,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Distance",
@@ -346,9 +436,12 @@
           "link": "https://oelrich.itch.io/distance",
           "thumb": "https://img.itch.zone/aW1nLzM1NDQ3NjIuanBn/315x250%23c/gnBUXX.jpg",
           "rank": 7,
+          "ratings": 7,
+          "score": 3.071,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         }
       ]
     },
@@ -363,9 +456,12 @@
           "link": "https://trito.itch.io/alice-i-verkalix",
           "thumb": "https://img.itch.zone/aW1nLzQ0NTM5NTcucG5n/315x250%23c/BLOoHk.png",
           "rank": 1,
+          "ratings": 6,
+          "score": 4.111,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Vinterfisk",
@@ -373,9 +469,12 @@
           "link": "https://famoustree.itch.io/vinterfisk",
           "thumb": "https://img.itch.zone/aW1nLzQ0NjgyOTMucG5n/315x250%23c/BnDUrt.png",
           "rank": 2,
+          "ratings": 6,
+          "score": 3.889,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Något sover under Aitik",
@@ -383,9 +482,12 @@
           "link": "https://cykelkatalogen.itch.io/ngot-sover-under-aitik",
           "thumb": "https://img.itch.zone/aW1nLzQ0NjY2MzEucG5n/315x250%23c/sk6vPo.png",
           "rank": 3,
+          "ratings": 6,
+          "score": 3.889,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Oh Deer!",
@@ -393,9 +495,12 @@
           "link": "https://elsiipo.itch.io/ohdeer",
           "thumb": "https://img.itch.zone/aW1nLzQ0NjA2NDUucG5n/315x250%23c/LGfAWJ.png",
           "rank": 4,
+          "ratings": 6,
+          "score": 3.444,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Flottarn",
@@ -403,9 +508,12 @@
           "link": "https://vestman.itch.io/flottarn",
           "thumb": "https://img.itch.zone/aW1nLzQ0Njc5OTcucG5n/315x250%23c/gz%2FAUn.png",
           "rank": 5,
+          "ratings": 6,
+          "score": 3.278,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Snowblazer",
@@ -413,9 +521,12 @@
           "link": "https://tradfursten.itch.io/snowblazer",
           "thumb": "https://img.itch.zone/aW1nLzQ0MDk0NDkucG5n/315x250%23c/FSucj2.png",
           "rank": 6,
+          "ratings": 6,
+          "score": 2.944,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Fångad",
@@ -423,9 +534,12 @@
           "link": "https://jacobtheripper.itch.io/fangad",
           "thumb": "https://img.itch.zone/aW1nLzQ0NzEyMDEucG5n/315x250%23c/%2FL5YYU.png",
           "rank": 7,
+          "ratings": 6,
+          "score": 2.222,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         }
       ]
     },
@@ -440,9 +554,12 @@
           "link": "https://johnste.itch.io/grodan-golf",
           "thumb": "https://img.itch.zone/aW1nLzcyNjMyNTEucG5n/315x250%23c/N2HEpr.png",
           "rank": 1,
+          "ratings": 12,
+          "score": 4,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Galaxy hopper",
@@ -450,9 +567,12 @@
           "link": "https://vidarn.itch.io/galaxy-hopper",
           "thumb": "https://img.itch.zone/aW1nLzc3OTc1MDIucG5n/315x250%23c/Bee8mQ.png",
           "rank": 2,
+          "ratings": 11,
+          "score": 3.364,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Förlora inte hoppet Runa",
@@ -460,9 +580,12 @@
           "link": "https://cykelkatalogen.itch.io/frlora-inte-hoppet-runa",
           "thumb": "https://img.itch.zone/aW1nLzcyNTkwNDQucG5n/315x250%23c/9SGIZF.png",
           "rank": 2,
+          "ratings": 11,
+          "score": 3.364,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "wave",
@@ -470,11 +593,14 @@
           "link": "https://famoustree.itch.io/wave",
           "thumb": "https://img.itch.zone/aW1nLzcyNjY0NDEucG5n/315x250%23c/zihFjX.png",
           "rank": 4,
+          "ratings": 8,
+          "score": 3.305,
           "platforms": {
             "mac": true,
             "windows": true,
             "linux": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Epoh",
@@ -482,9 +608,12 @@
           "link": "https://trito.itch.io/epoh",
           "thumb": "https://img.itch.zone/aW1nLzcyMzk1ODIucG5n/315x250%23c/Uaw920.png",
           "rank": 5,
+          "ratings": 11,
+          "score": 3.182,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Rats",
@@ -492,10 +621,13 @@
           "link": "https://saikyun.itch.io/rats",
           "thumb": "https://img.itch.zone/aW1nLzcyNjM3ODMucG5n/315x250%23c/d%2FJK58.png",
           "rank": 6,
+          "ratings": 9,
+          "score": 3.116,
           "platforms": {
             "mac": true,
             "linux": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Hararna från Hopplösa",
@@ -503,12 +635,15 @@
           "link": "https://madeso.itch.io/hararna-fran-hopplosa",
           "thumb": "https://img.itch.zone/aW1nLzcyNTk4NTEucG5n/315x250%23c/kRE4dh.png",
           "rank": 7,
+          "ratings": 12,
+          "score": 3,
           "platforms": {
             "web": true,
             "mac": true,
             "windows": true,
             "linux": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Faith Shuttle",
@@ -516,12 +651,15 @@
           "link": "https://onedee.itch.io/faith-shuttle",
           "thumb": "https://img.itch.zone/aW1nLzcyNjAyMDUucG5n/315x250%23c/DKhSAC.png",
           "rank": 8,
+          "ratings": 12,
+          "score": 2.917,
           "platforms": {
             "web": true,
             "mac": true,
             "windows": true,
             "linux": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Clutching at Straws",
@@ -529,10 +667,13 @@
           "link": "https://tradfursten.itch.io/clutching-at-straws",
           "thumb": "https://img.itch.zone/aW1nLzcyMzU0MjYucG5n/315x250%23c/kaJuRV.png",
           "rank": 9,
+          "ratings": 13,
+          "score": 2.846,
           "platforms": {
             "web": true,
             "linux": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Torsten",
@@ -540,9 +681,12 @@
           "link": "https://magn.itch.io/torsten",
           "thumb": "https://img.itch.zone/aW1nLzcyNzEyNDUucG5n/315x250%23c/d3qLez.png",
           "rank": 10,
+          "ratings": 10,
+          "score": 2.765,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Hopp Coyote",
@@ -550,9 +694,12 @@
           "link": "https://nilskj.itch.io/hopp-coyote",
           "thumb": "https://img.itch.zone/aW1nLzcyNjY4MjEucG5n/315x250%23c/eBbNB2.png",
           "rank": 11,
+          "ratings": 10,
+          "score": 2.67,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Hopeless Cave",
@@ -560,11 +707,14 @@
           "link": "https://jromin.itch.io/hopeless-cave",
           "thumb": "https://img.itch.zone/aW1nLzcyNjQyMDQucG5n/315x250%23c/hM4ThP.png",
           "rank": 12,
+          "ratings": 11,
+          "score": 2.455,
           "platforms": {
             "mac": true,
             "windows": true,
             "linux": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Kö HopparN^",
@@ -572,9 +722,12 @@
           "link": "https://arkmal.itch.io/hopparn",
           "thumb": "https://img.itch.zone/aW1nLzcyNjA5MTEucG5n/315x250%23c/n5pRvi.png",
           "rank": 13,
+          "ratings": 10,
+          "score": 2.288,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Pumpkins!",
@@ -582,7 +735,10 @@
           "link": "https://demicode.itch.io/pumpkins",
           "thumb": "https://img.itch.zone/aW1nLzcyNjYxMTcucG5n/315x250%23c/3r0stz.png",
           "rank": 13,
-          "platforms": {}
+          "ratings": 10,
+          "score": 2.288,
+          "platforms": {},
+          "priority": 0
         },
         {
           "title": "Tarzan",
@@ -590,11 +746,14 @@
           "link": "https://vestman.itch.io/tarzan",
           "thumb": "https://img.itch.zone/aW1nLzcyNjc5NTUucG5n/315x250%23c/Fd%2FhER.png",
           "rank": 15,
+          "ratings": 9,
+          "score": 2.111,
           "platforms": {
             "web": true,
             "mac": true,
             "windows": true
-          }
+          },
+          "priority": 0
         }
       ]
     },
@@ -609,18 +768,24 @@
           "link": "https://trito.itch.io/valter",
           "thumb": "https://img.itch.zone/aW1nLzEwMzI3Nzg0LnBuZw==/315x250%23c/6AyiqB.png",
           "rank": 1,
+          "ratings": 7,
+          "score": 3.714,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Valfisk",
           "author": "tomasskare",
           "link": "https://tomasskare.itch.io/valfisk",
           "rank": 2,
+          "ratings": 7,
+          "score": 3.571,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Whale Tycoon",
@@ -628,7 +793,10 @@
           "link": "https://elkroad.itch.io/whale-tycoon",
           "thumb": "https://img.itch.zone/aW1nLzEwMzM0NzQ4LnBuZw==/315x250%23c/p1rTnb.png",
           "rank": 3,
-          "platforms": {}
+          "ratings": 8,
+          "score": 3.5,
+          "platforms": {},
+          "priority": 0
         },
         {
           "title": "Fest i Val",
@@ -636,9 +804,12 @@
           "link": "https://superduperkillen.itch.io/festival",
           "thumb": "https://img.itch.zone/aW1nLzEwMzAyNjM4LnBuZw==/315x250%23c/126pMV.png",
           "rank": 4,
+          "ratings": 6,
+          "score": 3.24,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Ödesdigert Över Ödeshög",
@@ -646,9 +817,12 @@
           "link": "https://nilskj.itch.io/picky-shmup",
           "thumb": "https://img.itch.zone/aW1nLzEwMzMyNDc5LnBuZw==/315x250%23c/ypzc%2Fx.png",
           "rank": 4,
+          "ratings": 6,
+          "score": 3.24,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Nät, fisk & krill",
@@ -656,9 +830,12 @@
           "link": "https://cykelkatalogen.itch.io/nt-fisk-krill",
           "thumb": "https://img.itch.zone/aW1nLzEwMzMyMzAxLnBuZw==/315x250%23c/t9XHnv.png",
           "rank": 6,
+          "ratings": 7,
+          "score": 3.143,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Miljöval",
@@ -666,9 +843,12 @@
           "link": "https://madeso.itch.io/miljoval",
           "thumb": "https://img.itch.zone/aW1nLzEwMzQxNzA3LnBuZw==/315x250%23c/UPL7F0.png",
           "rank": 7,
+          "ratings": 7,
+          "score": 2.857,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Valybol",
@@ -676,9 +856,12 @@
           "link": "https://nergnezor.itch.io/valybol",
           "thumb": "https://img.itch.zone/aW1nLzEwMzM1MTQ3LmpwZw==/315x250%23c/OBmFj7.jpg",
           "rank": 8,
+          "ratings": 8,
+          "score": 2.25,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Val vs. Båt",
@@ -686,18 +869,24 @@
           "link": "https://stekspade.itch.io/whale-vs-boat",
           "thumb": "https://img.itch.zone/aW1nLzEwMzMxOTIzLnBuZw==/315x250%23c/04%2FSEZ.png",
           "rank": 9,
+          "ratings": 6,
+          "score": 2.16,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Proof of Stake",
           "author": "tradfursten",
           "link": "https://tradfursten.itch.io/proof-of-stake",
           "rank": 10,
+          "ratings": 7,
+          "score": 2.143,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         }
       ]
     },
@@ -712,9 +901,12 @@
           "link": "https://cykelkatalogen.itch.io/skattmas-i-rymden",
           "thumb": "https://img.itch.zone/aW1nLzExNjcwMTcxLnBuZw==/315x250%23c/mcAw7Q.png",
           "rank": 1,
+          "ratings": 7,
+          "score": 4,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Space Rush",
@@ -722,10 +914,13 @@
           "link": "https://wighz.itch.io/space-rush",
           "thumb": "https://img.itch.zone/aW1nLzExNjk3NDUzLnBuZw==/315x250%23c/zJ4OZn.png",
           "rank": 2,
+          "ratings": 6,
+          "score": 3.858,
           "platforms": {
             "web": true,
             "mac": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Treasure Clicker",
@@ -733,9 +928,12 @@
           "link": "https://dancar.itch.io/treasure-clicker",
           "thumb": "https://img.itch.zone/aW1nLzExNjQ2NjA0LmdpZg==/315x250%23c/e%2FqIIk.gif",
           "rank": 3,
+          "ratings": 7,
+          "score": 3.714,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Star Dogs",
@@ -743,9 +941,12 @@
           "link": "https://magn.itch.io/star-dogs",
           "thumb": "https://img.itch.zone/aW1nLzExNjU0NDcxLmpwZw==/315x250%23c/sOYR9z.jpg",
           "rank": 4,
+          "ratings": 7,
+          "score": 3.5,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Piratskatten",
@@ -753,9 +954,12 @@
           "link": "https://madeso.itch.io/piratskatten",
           "thumb": "https://img.itch.zone/aW1nLzExNjc2OTcwLnBuZw==/315x250%23c/YdMfCx.png",
           "rank": 5,
+          "ratings": 8,
+          "score": 3.375,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Åh fan, skatten",
@@ -763,9 +967,12 @@
           "link": "https://asagud.itch.io/fan-skatten",
           "thumb": "https://img.itch.zone/aW1nLzExNjYzMTMzLnBuZw==/315x250%23c/qcGEZQ.png",
           "rank": 6,
+          "ratings": 7,
+          "score": 3.357,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Marie och rymdskatten",
@@ -773,9 +980,12 @@
           "link": "https://trito.itch.io/marie-och-rymdskatten",
           "thumb": "https://img.itch.zone/aW1nLzExNjU0MTE2LnBuZw==/315x250%23c/zAjIin.png",
           "rank": 7,
+          "ratings": 6,
+          "score": 3.318,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Unnecessary Space",
@@ -783,10 +993,13 @@
           "link": "https://tradfursten.itch.io/unnecessary-space",
           "thumb": "https://img.itch.zone/aW1nLzExNjY4OTA4LnBuZw==/315x250%23c/q2AlwL.png",
           "rank": 8,
+          "ratings": 6,
+          "score": 3.163,
           "platforms": {
             "web": true,
             "mac": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Kosmorace",
@@ -794,9 +1007,12 @@
           "link": "https://flasheslav.itch.io/kosmorace",
           "thumb": "https://img.itch.zone/aW1nLzExNjU0MzUwLnBuZw==/315x250%23c/6Xe30L.png",
           "rank": 9,
+          "ratings": 8,
+          "score": 2.813,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Ship Mate",
@@ -804,9 +1020,12 @@
           "link": "https://johnste.itch.io/ship-mate",
           "thumb": "https://img.itch.zone/aW1nLzExNjcwODE3LnBuZw==/315x250%23c/AX529r.png",
           "rank": 10,
+          "ratings": 6,
+          "score": 2.392,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         }
       ]
     },
@@ -821,9 +1040,12 @@
           "link": "https://famoustree.itch.io/oh-its-raining",
           "thumb": "https://img.itch.zone/aW1nLzEzOTM4MTI5LnBuZw==/315x250%23c/Ax2zV2.png",
           "rank": 1,
+          "ratings": 6,
+          "score": 3.889,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Hop n Swap",
@@ -831,9 +1053,12 @@
           "link": "https://trito.itch.io/hopnswap",
           "thumb": "https://img.itch.zone/aW1nLzEzOTMzNDQ1LnBuZw==/315x250%23c/UC7P9O.png",
           "rank": 2,
+          "ratings": 6,
+          "score": 3.722,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Kroketterar",
@@ -841,9 +1066,12 @@
           "link": "https://cykelkatalogen.itch.io/kroketterar",
           "thumb": "https://img.itch.zone/aW1nLzEzOTI3MzA3LnBuZw==/315x250%23c/Dx98nM.png",
           "rank": 3,
+          "ratings": 6,
+          "score": 3.667,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "w4-zig-bingosylt",
@@ -851,11 +1079,14 @@
           "link": "https://peterhellberg.itch.io/w4-zig-bingosylt",
           "thumb": "https://img.itch.zone/aW1nLzEzOTAxMjU4LnBuZw==/315x250%23c/Dj6ccZ.png",
           "rank": 4,
+          "ratings": 6,
+          "score": 3.5,
           "platforms": {
             "web": true,
             "windows": true,
             "linux": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "EPAPUNK",
@@ -863,10 +1094,13 @@
           "link": "https://johnste.itch.io/epapunk",
           "thumb": "https://img.itch.zone/aW1nLzEzOTM0MzE1LmpwZWc=/315x250%23c/j%2FE06R.jpeg",
           "rank": 5,
+          "ratings": 6,
+          "score": 3.278,
           "platforms": {
             "mac": true,
             "windows": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Hju-l",
@@ -874,9 +1108,12 @@
           "link": "https://nergnezor.itch.io/hju-l",
           "thumb": "https://img.itch.zone/aW1nLzEzOTM4OTc4LnBuZw==/315x250%23c/sLsQEh.png",
           "rank": 6,
+          "ratings": 6,
+          "score": 3.222,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "Rundel Space Game",
@@ -884,9 +1121,12 @@
           "link": "https://scmx.itch.io/rundel-space-game",
           "thumb": "https://img.itch.zone/aW1nLzEzOTQ0Nzk2LmdpZg==/315x250%23c/GvPi81.gif",
           "rank": 7,
+          "ratings": 6,
+          "score": 3,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "RingDrain",
@@ -894,18 +1134,24 @@
           "link": "https://jistax.itch.io/ringdrain",
           "thumb": "https://img.itch.zone/aW1nLzEzOTM4NzU1LnBuZw==/315x250%23c/eM%2BA84.png",
           "rank": 8,
+          "ratings": 7,
+          "score": 2.619,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         },
         {
           "title": "blue versus green",
           "author": "Saikyun",
           "link": "https://saikyun.itch.io/blue-versus-green",
           "rank": 9,
+          "ratings": 7,
+          "score": 2.143,
           "platforms": {
             "web": true
-          }
+          },
+          "priority": 0
         }
       ]
     }

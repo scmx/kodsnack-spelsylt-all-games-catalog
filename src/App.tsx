@@ -12,6 +12,7 @@ const transparent =
   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=";
 
 function App() {
+  const [searchTerm, setSearchTerm] = useSearchParamsState("s");
   const [selectedPlatform, setSelectedPlatform] = useSearchParamsState("p");
   const [selectedAuthor, setSelectedAuthor] = useSearchParamsState("a");
   const [selectedJam, setSelectedJam] = useSearchParamsState("j");
@@ -29,6 +30,15 @@ function App() {
       ? (game: Game) => game.author === selectedAuthor
       : () => true;
   }
+  function bySearchTerm() {
+    if (!searchTerm) return () => true;
+    const regex = new RegExp(searchTerm, "i");
+    return (game: Game) =>
+      regex.test(game.title) ||
+      regex.test(game.author) ||
+      regex.test(game.jamTitle!) ||
+      regex.test(Object.keys(game.platforms).join(" "));
+  }
 
   const filteredGames = Object.values(jams)
     .filter(bySelectedJam())
@@ -37,7 +47,12 @@ function App() {
     })
     .filter(bySelectedPlatform())
     .filter(bySelectedAuthor())
+    .filter(bySearchTerm())
     .sort(sortBy((g) => g.rank));
+
+  function handleSearch(e: any) {
+    setSearchTerm(e.target.value);
+  }
 
   return (
     <Flowbite theme={{ mode: "dark" }}>
@@ -50,7 +65,7 @@ function App() {
           >
             <a
               href=""
-              className="flex items-center space-x-3 rtl:space-x-reverse ml-auto"
+              className="flex items-center space-x-3 rtl:space-x-reverse mr-auto"
             >
               <h1 className="self-center text-4xl font-semibold dark:text-white">
                 <span className="whitespace-nowrap">🎮 Spelsyltkatalog!</span>
@@ -60,6 +75,13 @@ function App() {
               <div className="flex place-items-center">
                 {filteredGames.length} spel!
               </div>
+              <input
+                type="search"
+                value={searchTerm}
+                onInput={handleSearch}
+                placeholder="RegExp..."
+                className="m-3 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 ps-5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 fill-available"
+              />
               <select
                 id="select_platforms"
                 className="m-3 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 fill-available"
@@ -88,7 +110,7 @@ function App() {
               </select>
               <select
                 id="select_authors"
-                className="m-3 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                className="m-3 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 fill-available"
                 value={selectedAuthor}
                 onChange={(e) => setSelectedAuthor(e.target.value)}
               >
