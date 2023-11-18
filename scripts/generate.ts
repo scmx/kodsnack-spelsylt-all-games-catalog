@@ -53,7 +53,7 @@ async function fetchJamResults(jam: Jam) {
   for (const result of results) {
     const thumb = result
       .querySelector(".game_thumb")!
-      ?.getAttribute("data-lazy_src")!;
+      ?.getAttribute("data-lazy_src");
     const anchor = result.querySelector("h2 a")!;
     const title = anchor!.text.trim()!;
     const link = anchor!.getAttribute("href")!;
@@ -61,13 +61,22 @@ async function fetchJamResults(jam: Jam) {
     const rank = parseInt(
       result.querySelector(".ordinal_rank")?.text.trim() ?? "0",
     );
+    const h3s = result.querySelectorAll(".game_summary h3");
+    const rankedText = [...h3s].at(-1)!.lastChild.text.trim();
+    const matches = rankedText?.match(
+      /^with (\d+) ratings \(Score\: ([\d.]+)\)$/,
+    );
+    const [ratings, score] = matches?.slice(1).map(Number) ?? [];
     const game: Game = {
       title,
       author,
       link,
       thumb,
       rank,
+      ratings,
+      score,
       platforms: {},
+      priority: 0,
     };
     jam.games.push(game);
   }

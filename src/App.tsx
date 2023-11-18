@@ -48,7 +48,7 @@ function App() {
     .filter(bySelectedPlatform())
     .filter(bySelectedAuthor())
     .filter(bySearchTerm())
-    .sort(sortBy((g) => g.rank));
+    .sort(sortBy((g) => -g.priority));
 
   function handleSearch(e: any) {
     setSearchTerm(e.target.value);
