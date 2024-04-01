@@ -13,6 +13,7 @@ Kolla in spelen här: https://scmx.github.io/kodsnack-spelsylt-all-games-catalog
 - [Kodsnacks Tvåveckorssylt - #7][spelsylt_07]
 - [Kodsnacks Tvåveckorssylt - #8][spelsylt_08]
 - [Kodsnacks Tvåveckorssylt - #9][spelsylt_09]
+- [Kodsnacks Tvåveckorssylt - #10][spelsylt_10]
 
 [spelsylt_01]: https://itch.io/jam/kodsnacks-2veckorssylt/results
 [spelsylt_02]: https://itch.io/jam/spelsylt/results
@@ -23,6 +24,7 @@ Kolla in spelen här: https://scmx.github.io/kodsnack-spelsylt-all-games-catalog
 [spelsylt_07]: https://itch.io/jam/spelsylt7/results
 [spelsylt_08]: https://itch.io/jam/spelsylt8/results
 [spelsylt_09]: https://itch.io/jam/spelsylt9/results
+[spelsylt_10]: https://itch.io/jam/spelsylt10/results
 
 ## React + TypeScript + Vite
 

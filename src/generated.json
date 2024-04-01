@@ -1154,6 +1154,92 @@
           "priority": 0
         }
       ]
+    },
+    "spelsylt_10": {
+      "id": "spelsylt_10",
+      "title": "Kodsnacks Tvåveckorssylt - #10",
+      "link": "https://itch.io/jam/spelsylt10/results",
+      "games": [
+        {
+          "title": "Nostalgi/Allergi/Strategi/Logi",
+          "author": "cykelkatalogen",
+          "link": "https://cykelkatalogen.itch.io/spelsylt10",
+          "thumb": "https://img.itch.zone/aW1nLzE1NTE0NjI2LnBuZw==/315x250%23c/waflMS.png",
+          "rank": 1,
+          "ratings": 5,
+          "score": 3.8,
+          "platforms": {
+            "web": true,
+            "mac": true,
+            "windows": true,
+            "linux": true
+          },
+          "priority": 0
+        },
+        {
+          "title": "Vargkraft",
+          "author": "WigHz",
+          "link": "https://wighz.itch.io/vargkraft",
+          "thumb": "https://img.itch.zone/aW1nLzE1NTA4NjU5LnBuZw==/315x250%23c/Fh5A5p.png",
+          "rank": 2,
+          "ratings": 4,
+          "score": 3.771,
+          "platforms": {
+            "web": true
+          },
+          "priority": 0
+        },
+        {
+          "title": "Pollen run",
+          "author": "trito",
+          "link": "https://trito.itch.io/pollen-run",
+          "thumb": "https://img.itch.zone/aW1nLzE1NDkxNzgxLnBuZw==/315x250%23c/6f2RT0.png",
+          "rank": 3,
+          "ratings": 4,
+          "score": 3.536,
+          "platforms": {
+            "web": true
+          },
+          "priority": 0
+        },
+        {
+          "title": "Skat(t)jakten 2",
+          "author": "okkut",
+          "link": "https://okkut.itch.io/skatjakten-2",
+          "thumb": "https://img.itch.zone/aW1nLzE1NDU1MjM4LnBuZw==/315x250%23c/bnvOeo.png",
+          "rank": 4,
+          "ratings": 5,
+          "score": 3.4,
+          "platforms": {},
+          "priority": 0
+        },
+        {
+          "title": "Megalergik",
+          "author": "nergnezor",
+          "link": "https://nergnezor.itch.io/megalergik",
+          "thumb": "https://img.itch.zone/aW1nLzE1NTA3OTA4LnBuZw==/315x250%23c/EjqxP3.png",
+          "rank": 5,
+          "ratings": 5,
+          "score": 3.1,
+          "platforms": {
+            "web": true
+          },
+          "priority": 0
+        },
+        {
+          "title": "Massipan Challenge",
+          "author": "scmx",
+          "link": "https://scmx.itch.io/massipan-challenge-spelsylt10",
+          "thumb": "https://img.itch.zone/aW1nLzE1NTc0NDc0LnBuZw==/315x250%23c/aDhhSR.png",
+          "rank": 6,
+          "ratings": 4,
+          "score": 2.003,
+          "platforms": {
+            "web": true
+          },
+          "priority": 0
+        }
+      ]
     }
   }
 }
