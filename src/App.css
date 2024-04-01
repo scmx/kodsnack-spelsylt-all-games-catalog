@@ -17,6 +17,7 @@
   font-size: clamp(1.5rem, 5vw, 2rem);
 }
 
-#select_jams {
+select,
+input {
   max-width: calc(100% - 25px);
 }
